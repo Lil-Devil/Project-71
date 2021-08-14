@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--Assuming "Menu with Marquee" and "Contact Us" has been completed in Project 68 -->
+    <!--Assuming "Campus Life" and "Achievements" has been completed in Project 69-->
+    <!--Assuming "What's new" has been completed in Project 70-->
+      <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Magic School</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#CampusLife">Campus Life</a></li>
+                <li><a href="#Achievemnts">Achievements</a></li>
+                <li><a href="#What's New">What's New</a></li>
+                <li><a href="#Alumni">Alumni</a></li>
+                <li><a href="#Contactus">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div>
+
+        <marquee width="60%" direction="right" height="100px">
+            Have any questions? Don't hesitate to ask!
+        </marquee>
+
+
+    </div>
+    <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kzYfRLMtP9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <br>
+        <br>
+        <br>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13260.034298428563!2d-117.9189742!3d33.8120918!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ef62f8418225cfa!2sDisneyland%20Park!5e0!3m2!1sen!2sus!4v1625785194793!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </center>
+
+    <div class="container">
+        <!--Campus Life-->
+        <div class="page-header" id="campus_life">
+            <h2 class="text-capitalize">Campus Life</h2>
+
+            <div class="row">
+                <!--1st Campus Life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://data.whicdn.com/images/100601859/original.jpg">
+                    <h4 class="text-capitalize"><kbd>magic palace</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Show your true colors</h5>
+                    <p class="text-muted text-left">The Magic Palace appears when you discover your true self. Find your fairytale, and don't give up until you get your happy ending!</p>
+                </div>
+                <!--2nd Campus Life-->
+                <div class="travel_mainDiv">
+                    <!--Give appropriate class below for the image img-responsive-->
+                    <img class="img-responsive" src="https://c4.wallpaperflare.com/wallpaper/441/119/763/man-made-library-book-cloud-wallpaper-thumb.jpg">
+                    <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+                    <hr>
+                    <!--Give classes below text-success text-left-->
+                    <h5 class="text-success text-left text-capitalize">Helps you learn new knowledge</h5>
+                    <p class="text-muted text-left">The school library gives you all types of information to help you succeed and grow as a person. Whatever you're looking for, you'll find it at the Magic School's library!</p>
+
+                </div>
+                <!--3rd Campus life-->
+                <div class="travel_mainDiv">
+                    <img class="img-responsive" src="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2016/06/DCLTFI678954.jpg">
+                    <!-- Give text-capitalize below to make the first letters in Capitals-->
+                    <h4 class="text-capitalize"><kbd>school auditorium</kbd></h4>
+                    <hr>
+                    <h5 class="text-success text-left text-capitalize">Build your confidence!</h5>
+                    <!-- Give text-muted below to show the text in grey color-->
+                    <p class="text-muted text-left">The school auditorium is the best place to improve your self-confidence and prepare you for challenges that may stand in your way. After all, anything can happen!</p>
+                </div>
+
+            </div>
+        </div>
+        <!--Achievements-->
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">school achievements</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement1">
+          Singing Competition  <i class="fa fa-sort-desc"></i>
+        </div>
+        <!--1st Achievement-->
+        <div id="school_achievement1" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://insidethemagic-119e2.kxcdn.com/wp-content/uploads/2020/04/princesses-800x400.jpeg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize"> Won first prize for singing competition
+                </h5>
+                <p>Our school's choir sang their heart out this year and the reward was priceless!</p>
+            </div>
+        </div>
+        <!--2nd Achievement-->
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#school_achievement2">
+            Ballroom Dancing Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement2" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+
+                <img src="https://m.media-amazon.com/images/I/518LlcK9-bL._AC_SY580_.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="movie_text col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                <h5 class="text-success text-left text-capitalize">Came second in the ballroom dancing competition
+                </h5>
+                <p>Everyone worked very hard preparing for this event, and it was worth it!</p>
+            </div>
+        </div>
+
+        <!--3rd Achievement--->
+
+        <div class="bg-primary  movie_head" data-toggle="collapse" data-target="#school_achievement3">
+            Archery Competition<i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="school_achievement3" class="collapse">
+            <!-- Add bootstrap col-lg-3 col-md-3 col-sm-3 col-xs-12-->
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementsID">
+                <img src="https://i.pinimg.com/originals/46/82/8c/46828cf9e3ca596a3ef2e79e03bab113.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-left text-success text-capitalize">Tied for second place in the worldwide archery competition
+                </h5>
+                <p>Our school has fierce, and empowering females who won't give up without a fight, and the result was evident! </p>
+            </div>
+        </div>
+
+    </div>
+    <div id="footer"></div>
+    <div class="container">
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="alumni">
+            <h2 class="text-capitalize ">Our Alumni</h2>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni1">
+            <img src="https://preview.redd.it/qfnumx99zxt61.png?width=640&crop=smart&auto=webp&s=1e79d89471ce44f77024502f2c6805441922991a" class="img-responsive">
+            <hr>
+            <p class="text-primary">Elsa the Snow Queen</p>
+        </div>
+
+        <!-- Modal -->
+        <!-- Give bootstrap class modal fade-->
+        <div class="modal fade" id="school_alumni1">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                       <!--Give the close button- &times;-->
+                        <button type="button" class="close" data-dismiss="modal&times"></button>
+                        <h4 class="modal-title">Elsa the Snow Queen</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <img src="https://preview.redd.it/qfnumx99zxt61.png?width=640&crop=smart&auto=webp&s=1e79d89471ce44f77024502f2c6805441922991a" class="img-responsive img_modal">
+                        <p class="p_modal">She was born with the ability to control ice and snow. As she grew up, she became the heiress to the thrown of Arendelle. She eventually learned that she wasn't where she belonged. After discovering the hidden truth, and facing many hardships to make things right, she now is the leader of the people in the Enchanted Forest (Northuldra) <br>
+                            <a href="https://disney.fandom.com/wiki/Elsa"><b>To Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni2">
+            <img src="http://pm1.narvii.com/6378/ad261bfa56b70f6e8cbf0930892817e1d37e00b7_00.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">Jasmine</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="school_alumni2">
+            <!-- Give bootstrap class modal-dialog-->
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Jasmine</h4>
+                    </div>
+                     <!-- Give bootstrap class modal-body-->
+                    <div class="modal-body">
+                        <img src="http://pm1.narvii.com/6378/ad261bfa56b70f6e8cbf0930892817e1d37e00b7_00.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">Jasmine is a free-spirited, confident, and kind princess. Yet, she couldn't live her life to the fullest. That changed, when she met Aladdin. Everyday is an adventure!  <br>
+                            <a href="https://disney.fandom.com/wiki/Jasmine"><b>To Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni3">
+            <img src="https://foxhugh.files.wordpress.com/2014/10/belle-disney-princess.jpg">
+            <hr>
+            <p class="text-primary">Belle</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="school_alumni3">
+            <div class="modal-dialog">
+                <!-- Give bootstrap class modal-content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Belle</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <img src="https://foxhugh.files.wordpress.com/2014/10/belle-disney-princess.jpg" class="img-responsive img_modal">
+                        <!-- Give bootstrap class p_modal-->
+                        <p class="p_modal">Belle is smart, brave, independant, and has a big heart. She truly shows us to never judge someone based on their appearance. <br>
+                            <a href="https://disneyprincess.fandom.com/wiki/Belle"><b>To Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" id="aluminiList" data-toggle="modal" data-target="#school_alumni4">
+            <img src="https://verilymag.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTQzMDI4MTYxOTE4MDE4NzY2/636049765581346370-moanacharrolloutjpg.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">Moana</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="school_alumni4">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Moana</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <img src="https://verilymag.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTQzMDI4MTYxOTE4MDE4NzY2/636049765581346370-moanacharrolloutjpg.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">Moana shows great courage, and determination. She will fight for what she values and loves her family. Though, she experiences self-doubt sometimes, she never lets that stop her from accomplishing what she wants.<br>
+                            <a href="https://disneyprincess.fandom.com/wiki/Moana"><b>To Know More</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="footer"></div>
+</body>
+
+</html>
